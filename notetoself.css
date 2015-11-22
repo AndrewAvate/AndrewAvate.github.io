@@ -82,12 +82,12 @@ ul#stickies li:nth-child(3n) {
 
 ul#stickies li:hover {
   -webkit-box-shadow: 5px 5px 6px rgba(189, 154, 94, 1);
-  -moz-box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.4);
-  -o-box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.4);
-  -webkit-transform: rotate(0deg) scale(1.35);
-  -moz-transform: rotate(0deg) scale(1.35);
-  -o-transform: rotate(0deg) scale(1.35);
-  -ms-transform: rotate(0deg) scale(1.35);
+  -moz-box-shadow: 5px 5px 6px rgba(189, 154, 94, 1);
+  -o-box-shadow: 5px 5px 6px rgba(189, 154, 94, 1);
+  -webkit-transform: rotate(0deg) scale(1.5);
+  -moz-transform: rotate(0deg) scale(1.5);
+  -o-transform: rotate(0deg) scale(1.5);
+  -ms-transform: rotate(0deg) scale(1.5);
   transform: rotate(0deg) scale(1.5);
   position: relative;
   z-index: 3;
