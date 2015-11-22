@@ -47,6 +47,7 @@ ul#stickies li {
 ul#stickies li span.sticky {
   font-family: Verdana, Helvetica, sans-serif;
   font-size: 200%;
+  word-wrap:break-word;
 }
 
 /*
