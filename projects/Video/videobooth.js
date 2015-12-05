@@ -89,7 +89,7 @@ function setVideo(e) {
 		pushUnpushButtons("video2", ["video1"]);
 	}
 
-	video.src = videos[id] + getFormatExtension();
+	video.src = videos[id] +".mp4";//+ getFormatExtension(); fix to do later
 	video.load();
 	video.play();
 
