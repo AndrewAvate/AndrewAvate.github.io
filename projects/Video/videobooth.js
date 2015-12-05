@@ -89,7 +89,7 @@ function setVideo(e) {
 		pushUnpushButtons("video2", ["video1"]);
 	}
 
-	video.src = videos[id] +".mp4";//+ getFormatExtension(); fix to do later
+	video.src = videos[id] + getFormatExtension();
 	video.load();
 	video.play();
 
@@ -126,11 +126,11 @@ function isButtonPushed(id) {
 
 function getFormatExtension() {
 	var video = document.getElementById("video");
-
-	if(video.canPlayType("video/ogg") !== "") {
-		return ".ogv";
-	} else if(video.canPlayType("video/mp4") !== "") {
+	
+	if(video.canPlayType("video/mp4") !== "") {
 		return ".mp4";
+	} else if(video.canPlayType("video/ogg") !== "") {
+		return ".ogv";
 	} else if(video.canPlayType("video/webm") !== "") {
 		return ".webm";
 	}
