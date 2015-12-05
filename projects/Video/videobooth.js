@@ -1,4 +1,5 @@
-var videos = {video1: "video/Far Cry1.mp4",video2: "video/Far Cry2.mp4"};
+var videos = {video1: "video/FarCry1"
+			  ,video2: "video/FarCry2"};
 var effectFunction = null;
 
 window.onload = function() {
