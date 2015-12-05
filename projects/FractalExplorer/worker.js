@@ -1,0 +1,7 @@
+importScripts("mandellib.js");
+
+onmessage = function(task) {
+	var workerResult = computeRow(task.data);
+
+	postMessage(workerResult);
+}
